@@ -1,0 +1,6 @@
+if SHIELD_BLACKBOARD
+
+config ZMK_KEYBOARD_NAME
+    default "blackboard"
+
+endif
