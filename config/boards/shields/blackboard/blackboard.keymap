@@ -2,18 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        mac_mul: mac_mul {
-            label = "mac_mul";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N0 &kp N2 &kp N1 &kp N5>
-                , <&macro_release &kp LALT>
-                ;
-        };
-    };
     keymap {
         compatible = "zmk,keymap";
 
