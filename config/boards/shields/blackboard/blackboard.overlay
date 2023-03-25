@@ -17,25 +17,25 @@
                     <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&blackpill 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&blackpill 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-
-        col-gpios = <&blackpill 25 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 26 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 27 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 28 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 29 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 30 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 31 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 32 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 33 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 38 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 39 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 40 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 41 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 42 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 43 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 45 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 46 (GPIO_ACTIVE_HIGH)>,
-                    <&blackpill 21 (GPIO_ACTIVE_HIGH)>;
+    
+        col-gpios = <&blackpill 25 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 26 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 27 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 28 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 29 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 30 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 31 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 32 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 33 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 38 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 39 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 40 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 41 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 42 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 43 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 45 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 46 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 21 GPIO_ACTIVE_HIGH>;
     };
 
     default_transform: matrix_transform {
